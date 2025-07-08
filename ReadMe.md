@@ -1,12 +1,12 @@
 ## 📄 `README.md`
 
 ```markdown
-# ✈️ Airline Demand Trends Dashboard
+# Airline Demand Trends Dashboard
 
 A Python-powered web app that fetches live flight data, analyzes airline market demand, and provides **AI-generated insights** — built for hostel owners monitoring air travel trends in Australia.
 ---
 
-## 🚀 Features
+## Features
 
 ✅ **Live Flight Data**  
 ✅ **Popular Airlines & Routes**  
@@ -16,7 +16,7 @@ A Python-powered web app that fetches live flight data, analyzes airline market 
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 1. **Enter Departure Airport Code** (e.g. `SYD` for Sydney)
 2. Fetches real-time flight data using [AviationStack API](https://aviationstack.com/)
@@ -28,7 +28,7 @@ A Python-powered web app that fetches live flight data, analyzes airline market 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |------|---------|
@@ -41,9 +41,7 @@ A Python-powered web app that fetches live flight data, analyzes airline market 
 
 ---
 
-## 📂 Folder Structure
-
-```
+## Folder Structure
 
 .
 ├── app.py                 # Main Streamlit app
@@ -53,43 +51,41 @@ A Python-powered web app that fetches live flight data, analyzes airline market 
 ├── requirements.txt       # Dependencies
 └── README.md
 
-````
 
 ---
 
-## 🔐 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repository
 
 ```bash
 git clone https://github.com/your-username/airline-demand-dashboard.git
 cd airline-demand-dashboard
-````
 
 ### 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
-```
+
 
 ### 3. Set up environment variables
 
 Create a `.env` file:
 
-```
+
 OPENAI_API_KEY=your-openai-key
 AVIATIONSTACK_API_KEY=your-aviationstack-key
-```
+
 
 ### 4. Run the app
 
 ```bash
 streamlit run app.py
-```
+
 
 ---
 
-## 💬 Example Questions You Can Ask AI
+## Example Questions You Can Ask AI
 
 * What’s the best time to fly from Sydney?
 * Which routes have the highest demand?
@@ -97,7 +93,7 @@ streamlit run app.py
 
 ---
 
-## ✅ Future Improvements
+## Future Improvements
 
 * Filter by airline, time of day, or destination
 * Price tracking over time
