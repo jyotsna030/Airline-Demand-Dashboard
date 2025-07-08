@@ -4,9 +4,6 @@
 # ✈️ Airline Demand Trends Dashboard
 
 A Python-powered web app that fetches live flight data, analyzes airline market demand, and provides **AI-generated insights** — built for hostel owners monitoring air travel trends in Australia.
-
-![Streamlit Screenshot](https://user-images.githubusercontent.com/your-image-placeholder.png) <!-- Add a screenshot here if available -->
-
 ---
 
 ## 🚀 Features
@@ -15,7 +12,7 @@ A Python-powered web app that fetches live flight data, analyzes airline market 
 ✅ **Popular Airlines & Routes**  
 ✅ **Interactive Charts (Plotly)**  
 ✅ **AI-Powered Summary & Q&A** using OpenAI  
-✅ **Streamlit Web App UI** — no code needed!
+✅ **Streamlit Web App UI**
 
 ---
 
@@ -41,13 +38,6 @@ A Python-powered web app that fetches live flight data, analyzes airline market 
 | **Plotly** | Interactive charts |
 | **AviationStack API** | Flight data |
 | **OpenAI API** | AI insights & question answering |
-
----
-
-## 📸 Demo
-
-> Insert a screen recording link (Loom, YouTube, or GIF)  
-> Or add images under `/screenshots`
 
 ---
 
@@ -113,33 +103,3 @@ streamlit run app.py
 * Price tracking over time
 * Alerts for high-demand periods
 * Deploy on Streamlit Cloud or HuggingFace Spaces
-
----
-
-## 👤 Author
-
-**Jyotsna Shrivastava**
-Connect with me on [LinkedIn](https://www.linkedin.com/in/your-link/)
-Made with ❤️ for real-world problem solving!
-
----
-
-## 📄 License
-
-MIT License — free for personal and commercial use.
-
-````
-
----
-
-### ✅ BONUS: Add a Screenshot
-
-Just upload an image (e.g. `dashboard.png`) in your repo and link it like:
-
-```markdown
-![Dashboard](screenshots/dashboard.png)
-````
-
----
-
-Want me to help write a submission message or portfolio pitch as well?
